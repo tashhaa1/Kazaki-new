@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+    <title>متجر كازاكي لورد الليكو الفاخر | KAZAKI.IQ</title>
+    <meta name="description" content="متجر ورد الليكو الفاخر KAZAKI.IQ - تصاميم ورد دائم لا يذبل للأبد، باقات وقباب مضيئة وبوكسات هدايا ملكية مع توصيل سريع لكافة محافظات العراق." />
+    <meta property="og:title" content="متجر كازاكي لورد الليكو الفاخر | KAZAKI.IQ" />
+    <meta property="og:description" content="متجر ورد الليكو الفاخر KAZAKI.IQ - تصاميم ورد دائم لا يذبل للأبد، باقات وقباب مضيئة وبوكسات هدايا ملكية مع توصيل سريع لكافة محافظات العراق." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
+    <link rel="apple-touch-icon" href="/logo.jpg" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#e11d48" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="KAZAKI" />
+    <meta property="og:image" content="/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@300;400;500;600;700;800;900&family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&family=Cinzel:wght@600;700;800;900&family=Montserrat:wght@600;700;800;900&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+    <script>
+      // iOS Safari diagnostic and crash prevention shim
+      window.__kazaki_boot_errors = [];
+      window.addEventListener('error', function(e) {
+        console.warn('[KAZAKI Boot Error Caught]:', e.message || e);
+        window.__kazaki_boot_errors.push(e.message || String(e));
+      });
+      window.addEventListener('unhandledrejection', function(e) {
+        console.warn('[KAZAKI Unhandled Rejection]:', e.reason);
+      });
+    </script>
+  </head>
+  <body class="bg-rose-50/30 text-stone-800 antialiased selection:bg-rose-200 selection:text-rose-900 min-h-screen">
+    <div id="root">
+      <!-- Instant Branded Splash Screen - Prevents White Screen on iPhone / Safari while JS parses -->
+      <div id="kazaki-boot-loader" style="min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #09070a; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; text-align: center; padding: 24px;">
+        <div style="width: 76px; height: 76px; border-radius: 50%; padding: 2.5px; background: linear-gradient(135deg, #f43f5e, #fb7185, #f59e0b); margin-bottom: 20px; box-shadow: 0 10px 30px rgba(244,63,94,0.35);">
+          <div style="width: 100%; height: 100%; border-radius: 50%; overflow: hidden; background: #000; display: flex; align-items: center; justify-content: center;">
+            <img src="/logo.jpg" alt="KAZAKI" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.display='none'" />
+          </div>
+        </div>
+        <h1 style="font-size: 24px; font-weight: 800; letter-spacing: 0.18em; margin: 0 0 8px 0; color: #fff;">KAZAKI.IQ</h1>
+        <p style="font-size: 13px; color: #fda4af; margin: 0 0 24px 0; font-weight: 500;">متجر ورد الليكو الفاخر</p>
+        <div style="width: 38px; height: 38px; border: 3px solid rgba(244,63,94,0.25); border-top-color: #f43f5e; border-radius: 50%; animation: kazaki-spin 0.9s linear infinite;"></div>
+        <style>
+          @keyframes kazaki-spin {
+            to { transform: rotate(360deg); }
+          }
+        </style>
+        <div id="kazaki-boot-timeout-btn" style="display: none; margin-top: 24px;">
+          <button onclick="try{sessionStorage.clear();}catch(e){} window.location.reload();" style="padding: 12px 24px; border-radius: 14px; background: #e11d48; color: #fff; border: none; font-weight: bold; font-size: 13px; cursor: pointer;">
+            تحديث المتجر الآن
+          </button>
+        </div>
+        <script>
+          setTimeout(function() {
+            var btn = document.getElementById('kazaki-boot-timeout-btn');
+            if (btn && document.getElementById('kazaki-boot-loader')) {
+              btn.style.display = 'block';
+            }
+          }, 6000);
+        </script>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

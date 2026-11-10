@@ -1,0 +1,6 @@
+{
+  "name": "متجر كازاكي لورد الليكو الفاخر | KAZAKI.IQ",
+  "description": "متجر إلكتروني عصري ومتكامل لورد الليكو الفاخر الدائم مع لوحة تحكم كاملة للمدير، إدارة المنتجات والطلبات والتوصيل لكافة المحافظات.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
